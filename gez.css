@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.cfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.con {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+.im-f {
+    max-width: 450px;
+    height: auto;
+
+}
+
+
+/*******NAVBAR*******/
+nav {
+    font-family: Montserrat;
+    background-color: #2C3E4F;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+#logo-1 {
+    float: left;
+    padding-top: 0.5rem;
+
+}
+
+#logo-1 .logo {
+    color: white;
+    font-weight: 900;
+    font-size: 3.2rem;
+    padding-left: 5rem;
+}
+
+#nav-ll {
+    float: right;
+}
+
+#nav-ll .nav-i {
+    float: left;
+    margin: 0.5rem;
+
+}
+
+#nav-ll .nav-l {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4;
+}
+
+#nav-ll .nav-l:hover {
+    color: #1ABC9B;
+}
+
+header {
+    background-color: #64B5F6;
+    height: 800px;
+    padding-top: calc(100px + 2rem);
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 6rem;
+}
+
+header h2 {
+    color: white;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+hr.star-light {
+    border-color: #fff;
+    text-align: center;
+}
+
+hr.star-white {
+    border-color: #2D3D4F;
+    text-align: center;
+}
+
+hr.star-pink {
+    border-color: #fff;
+    text-align: center;
+}
+
+.star-light,
+.star-white,
+.star-pink,
+.star-s {
+    border: none;
+    border-top: 0.4rem solid;
+    max-width: 25rem;
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+
+.star-light::after {
+    
+    color: #fff;
+    background-color: #64B5F6;
+}
+
+.star-white::after {
+    content: "\2735";
+    color: #2D3D4F;
+    background-color: #fff;
+}
+
+.star-s::after {
+    color: #2D3D4F;
+    background-color: #fff;
+}
+
+.star-pink::after {
+    content: "\2735";
+    color: #fff;
+    background-color: #F8BBD0;
+}
+
+.star-light::after,
+.star-white::after,
+.star-pink::after,
+.star-s::after {
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+}
+
+#bosluk1 {
+    background-color:#f0ffff;
+
+}
+ #polonya-ana #p1 {
+    float: center;
+    width: 35rem;
+ }
+
+#polonya-ana h1 {
+    padding-top: 5rem;
+    font-size: 10rem;
+    font-weight: 900;
+    color: #2C3E4F;
+}
+
+#polonya-giris {
+    background-color: #828282;
+    color: #fff;
+}
+
+/*#polonya-giris h2 {
+    font-size: 5rem;
+    text-align: center;
+}*/
+
+
+#polonya-text .left {
+    display: flex;
+    width: 50%;
+    float: left;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    text-align: justify;
+}
+
+#polonya-text .right {
+    display: flex;
+    width: 50%;
+    float: right;
+    padding-left: 5rem;
+    padding-right:5rem;
+    text-align:justify;
+    padding-top: calc(-100px+20rem);
+}
+
+#polonya-text .text {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#p2 {
+    width: 35rem;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+}
+#p3 {
+    padding-right: 30rem;
+    align-items: left;
+    width: %30;
+}
+
+#polonya-w {
+    background-color:#2C3E4F;
+    color: #f0ffff;
+}
+
+
+
+
